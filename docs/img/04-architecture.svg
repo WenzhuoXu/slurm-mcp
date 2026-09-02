@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="470" viewBox="0 0 1020 470" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1020" height="470" fill="#ffffff"/>
+<defs><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0969da"/></marker></defs>
+<defs><marker id="faint" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8c959f"/></marker></defs>
+<text x="30" y="34" font-size="17" fill="#1f2328" font-weight="600">Everything runs on your machine. The cluster gets nothing permanent.</text>
+<text x="30" y="54" font-size="12.5" fill="#59636e">No daemon to install, no admin to ask, no scheduler plugin. Just your existing SSH login.</text>
+<rect x="30" y="82" width="292" height="236" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="30" y="82" width="292" height="4" rx="2" fill="#0969da"/>
+<text x="46" y="110" font-size="12.5" fill="#1f2328" font-weight="700">YOUR MACHINE</text>
+<text x="46" y="127" font-size="10.5" fill="#818b98">Windows, macOS or Linux</text>
+<rect x="46" y="140" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="58" y="158" font-size="11.5" fill="#1f2328" font-weight="600">Claude Code</text>
+<text x="58" y="172" font-size="10" fill="#59636e">talks MCP over stdio</text>
+<rect x="46" y="188" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="58" y="206" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">slurm_mcp.server</text>
+<text x="58" y="220" font-size="10" fill="#59636e">20 tools, one asyncssh connection per cluster</text>
+<rect x="46" y="236" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="58" y="254" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">~/.slurm-mcp/state.db</text>
+<text x="58" y="268" font-size="10" fill="#59636e">SQLite ledger: jobs, attempts, events</text>
+<rect x="46" y="278" width="260" height="40" rx="6" fill="#dafbe1"/>
+<text x="58" y="296" font-size="11.5" fill="#1a7f37" font-weight="600">OS keyring</text>
+<text x="58" y="310" font-size="10" fill="#59636e">the password, and only here</text>
+<rect x="364" y="82" width="292" height="236" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="364" y="82" width="292" height="4" rx="2" fill="#8250df"/>
+<text x="380" y="110" font-size="12.5" fill="#1f2328" font-weight="700">LOGIN NODE</text>
+<text x="380" y="127" font-size="10.5" fill="#818b98">trace.cmu.edu · bridges2.psc.edu</text>
+<rect x="380" y="140" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="392" y="158" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">sbatch  squeue  sacct</text>
+<text x="392" y="172" font-size="10" fill="#59636e">the ordinary CLI, as you</text>
+<rect x="380" y="188" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="392" y="206" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">scontrol  sacctmgr  sinfo</text>
+<text x="392" y="220" font-size="10" fill="#59636e">discovery: partitions, QOS, limits</text>
+<rect x="380" y="236" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="392" y="254" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">SFTP</text>
+<text x="392" y="268" font-size="10" fill="#59636e">or a data-transfer node when the login node refuses</text>
+<rect x="380" y="278" width="260" height="40" rx="6" fill="#fff8c5"/>
+<text x="392" y="296" font-size="11.5" fill="#9a6700" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">~/.slurm-mcp/bin/&lt;hash&gt;/</text>
+<text x="392" y="310" font-size="10" fill="#59636e">helpers, re-uploaded only when they change</text>
+<rect x="698" y="82" width="292" height="236" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="698" y="82" width="292" height="4" rx="2" fill="#1a7f37"/>
+<text x="714" y="110" font-size="12.5" fill="#1f2328" font-weight="700">COMPUTE NODE</text>
+<text x="714" y="127" font-size="10.5" fill="#818b98">where your job actually runs</text>
+<rect x="714" y="140" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="726" y="158" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">wrap.sh</text>
+<text x="726" y="172" font-size="10" fill="#59636e">wraps your script, catches the signal</text>
+<rect x="714" y="188" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="726" y="206" font-size="11.5" fill="#1f2328" font-weight="600">your job</text>
+<text x="726" y="220" font-size="10" fill="#59636e">unchanged, in your own workdir</text>
+<rect x="714" y="236" width="260" height="40" rx="6" fill="#f6f8fa"/>
+<text x="726" y="254" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">status.json  heartbeat  rc</text>
+<text x="726" y="268" font-size="10" fill="#59636e">so a lost sbatch reply is still recoverable</text>
+<rect x="714" y="278" width="260" height="40" rx="6" fill="#fff8c5"/>
+<text x="726" y="296" font-size="11.5" fill="#9a6700" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">alloc-agent.sh</text>
+<text x="726" y="310" font-size="10" fill="#59636e">only for held allocations</text>
+<path d="M 328 200.0 L 356 200.0" fill="none" stroke="#0969da" stroke-width="2" stroke-linecap="round" marker-end="url(#blue)"/>
+<text x="343.0" y="188.0" font-size="11" fill="#0969da" font-weight="700" text-anchor="middle">SSH</text>
+<text x="343.0" y="222.0" font-size="9.5" fill="#818b98" text-anchor="middle">password</text>
+<path d="M 662 200.0 L 690 200.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-linecap="round" marker-end="url(#faint)"/>
+<text x="677.0" y="188.0" font-size="11" fill="#59636e" font-weight="700" text-anchor="middle">SLURM</text>
+<rect x="30.0" y="348" width="312.0" height="76" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="44.0" y="372" font-size="11.8" fill="#1a7f37" font-weight="600">Nothing to install on the cluster</text>
+<text x="44.0" y="392" font-size="10.5" fill="#59636e">The three helper scripts are uploaded per job, keyed</text>
+<text x="44.0" y="406" font-size="10.5" fill="#59636e">by content hash, into your own home.</text>
+<rect x="354.0" y="348" width="312.0" height="76" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="368.0" y="372" font-size="11.8" fill="#1a7f37" font-weight="600">The password never leaves the keyring</text>
+<text x="368.0" y="392" font-size="10.5" fill="#59636e">Not in a config file, not in a log, not on a command</text>
+<text x="368.0" y="406" font-size="10.5" fill="#59636e">line. auth set refuses a piped stdin.</text>
+<rect x="678.0" y="348" width="312.0" height="76" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="692.0" y="372" font-size="11.8" fill="#1a7f37" font-weight="600">Kill the server mid-job and nothing is lost</text>
+<text x="692.0" y="392" font-size="10.5" fill="#59636e">The ledger is on your disk; on restart the monitor</text>
+<text x="692.0" y="406" font-size="10.5" fill="#59636e">reconciles it against sacct and squeue.</text>
+</svg>

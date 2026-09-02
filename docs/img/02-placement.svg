@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="556" viewBox="0 0 1020 556" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1020" height="556" fill="#ffffff"/>
+<text x="30" y="34" font-size="17" fill="#1f2328" font-weight="600">It ranks every partition you are allowed to use, on every cluster you configured</text>
+<text x="30" y="54" font-size="12.5" fill="#59636e">Score is in hours, and lower wins: time until it starts, plus how long it runs, plus what it costs priced back into hours.</text>
+<rect x="30" y="76" width="10" height="10" rx="2" fill="#0969da"/>
+<text x="46" y="85" font-size="11.5" fill="#59636e">queue wait</text>
+<rect x="128.88" y="76" width="10" height="10" rx="2" fill="#8250df"/>
+<text x="144.88" y="85" font-size="11.5" fill="#59636e">your job&#x27;s wall clock</text>
+<rect x="292.528" y="76" width="10" height="10" rx="2" fill="#bf8700"/>
+<text x="308.528" y="85" font-size="11.5" fill="#59636e">SU price at 0.25 h/SU</text>
+<rect x="22" y="98" width="976" height="58" rx="8" fill="#dafbe1"/>
+<text x="38" y="118" font-size="13" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">trace:cpuonly-debug</text>
+<rect x="38" y="126" width="37.6" height="17" rx="8.5" fill="#c9f3d4"/>
+<text x="44" y="138.1" font-size="10" fill="#1a7f37" font-weight="600">TRACE</text>
+<text x="85.6" y="138" font-size="10.5" fill="#818b98">queue ahead 0 · free</text>
+<rect x="322" y="106" width="0.7000000000000001" height="20" rx="3" fill="#0969da"/>
+<rect x="322.7" y="106" width="38.89666666666667" height="20" rx="3" fill="#8250df"/>
+<text x="373.59666666666664" y="121" font-size="12.5" fill="#1f2328" font-weight="600">0.167 h</text>
+<rect x="439.59666666666664" y="107" width="139.648" height="18" rx="9.0" fill="#c9f3d4"/>
+<text x="447.59666666666664" y="119.78" font-size="10.5" fill="#1a7f37" font-weight="600">chosen — submitted here</text>
+<text x="38" y="180" font-size="13" fill="#32383f" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">bridges2:RM-small</text>
+<rect x="38" y="188" width="58.080000000000005" height="17" rx="8.5" fill="#ddf4ff"/>
+<text x="44" y="200.1" font-size="10" fill="#0969da" font-weight="600">Bridges-2</text>
+<text x="106.08000000000001" y="200" font-size="10.5" fill="#818b98">queue ahead 0 · 0.33 SU</text>
+<rect x="322" y="168" width="0.9333333333333333" height="20" rx="3" fill="#0969da"/>
+<rect x="322.93333333333334" y="168" width="38.89666666666667" height="20" rx="3" fill="#8250df"/>
+<rect x="361.83" y="168" width="19.25" height="20" rx="3" fill="#bf8700"/>
+<text x="393.08" y="183" font-size="12.5" fill="#59636e" font-weight="600">0.249 h</text>
+<text x="38" y="242" font-size="13" fill="#32383f" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">trace:cpuonly</text>
+<rect x="38" y="250" width="37.6" height="17" rx="8.5" fill="#c9f3d4"/>
+<text x="44" y="262.1" font-size="10" fill="#1a7f37" font-weight="600">TRACE</text>
+<text x="85.6" y="262" font-size="10.5" fill="#818b98">queue ahead 7 · free</text>
+<rect x="322" y="230" width="408.33333333333337" height="20" rx="3" fill="#0969da"/>
+<rect x="730.3333333333334" y="230" width="38.89666666666667" height="20" rx="3" fill="#8250df"/>
+<text x="781.23" y="245" font-size="12.5" fill="#59636e" font-weight="600">1.917 h</text>
+<text x="38" y="304" font-size="13" fill="#32383f" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">bridges2:RM-512</text>
+<rect x="38" y="312" width="58.080000000000005" height="17" rx="8.5" fill="#ddf4ff"/>
+<text x="44" y="324.1" font-size="10" fill="#0969da" font-weight="600">Bridges-2</text>
+<text x="106.08000000000001" y="324" font-size="10.5" fill="#818b98">queue ahead 7 · 0.33 SU</text>
+<rect x="322" y="292" width="408.33333333333337" height="20" rx="3" fill="#0969da"/>
+<rect x="730.3333333333334" y="292" width="38.89666666666667" height="20" rx="3" fill="#8250df"/>
+<rect x="769.23" y="292" width="19.25" height="20" rx="3" fill="#bf8700"/>
+<text x="800.48" y="307" font-size="12.5" fill="#59636e" font-weight="600">1.999 h</text>
+<text x="38" y="366" font-size="13" fill="#32383f" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">bridges2:EM</text>
+<rect x="38" y="374" width="58.080000000000005" height="17" rx="8.5" fill="#ddf4ff"/>
+<text x="44" y="386.1" font-size="10" fill="#0969da" font-weight="600">Bridges-2</text>
+<text x="106.08000000000001" y="386" font-size="10.5" fill="#818b98">queue ahead 8 · 0.33 SU</text>
+<rect x="322" y="354" width="466.6666666666667" height="20" rx="3" fill="#0969da"/>
+<rect x="788.6666666666667" y="354" width="38.89666666666667" height="20" rx="3" fill="#8250df"/>
+<rect x="827.5633333333334" y="354" width="19.25" height="20" rx="3" fill="#bf8700"/>
+<text x="858.8133333333334" y="369" font-size="12.5" fill="#59636e" font-weight="600">2.249 h</text>
+<line x1="30" y1="414" x2="990" y2="414" stroke="#d1d9e0" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="38" y="438" font-size="13" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">bridges2:applications</text>
+<rect x="322" y="426" width="190" height="20" rx="3" fill="#ffebe9"/>
+<text x="334" y="440" font-size="11" fill="#cf222e" font-weight="600">Invalid qos specification</text>
+<text x="536" y="440" font-size="11.5" fill="#59636e">ruled out before you could waste a submission on it</text>
+<rect x="30" y="468" width="960" height="46" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="46" y="488" font-size="12" fill="#1f2328" font-weight="600">Free beats charging on a tie, and a short queue beats a long one.</text>
+<text x="46" y="505" font-size="11.5" fill="#59636e">Bridges-2 RM-small would have started just as fast, so the 0.33 SU is what lost it. Change that with objective=fastest or cheapest.</text>
+</svg>

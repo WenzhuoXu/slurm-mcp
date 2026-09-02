@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="500" viewBox="0 0 1020 500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1020" height="500" fill="#ffffff"/>
+<defs><marker id="gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8c959f"/></marker></defs>
+<text x="30" y="34" font-size="17" fill="#1f2328" font-weight="600">It watches the job so you do not, and it cannot lose the answer</text>
+<text x="30" y="54" font-size="12.5" fill="#59636e">One real job on CMU TRACE. Every box below is an event the server recorded and handed to the session.</text>
+<rect x="30.0" y="82" width="220.5" height="96" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="30.0" y="82" width="220.5" height="4" rx="2" fill="#0969da"/>
+<text x="44.0" y="112" font-size="13" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">submit_job</text>
+<text x="236.5" y="112" font-size="10.5" fill="#818b98" text-anchor="end">you, once</text>
+<text x="44.0" y="136" font-size="11.5" fill="#59636e">placement=&quot;auto&quot;</text>
+<text x="44.0" y="153" font-size="11.5" fill="#59636e">handle j7 comes back immediately</text>
+<path d="M 255.5 130.0 L 271.5 130.0" fill="none" stroke="#8c959f" stroke-width="1.4" stroke-linecap="round" marker-end="url(#gray)"/>
+<rect x="276.5" y="82" width="220.5" height="96" rx="8" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<rect x="276.5" y="82" width="220.5" height="4" rx="2" fill="#0969da"/>
+<text x="290.5" y="112" font-size="13" fill="#1f2328" font-weight="600">submitted</text>
+<text x="483.0" y="112" font-size="10.5" fill="#818b98" text-anchor="end">t+0 s</text>
+<text x="290.5" y="136" font-size="11.5" fill="#59636e">615819 on trace:cpuonly-debug</text>
+<text x="290.5" y="153" font-size="11.5" fill="#59636e">qos, account and paths filled in</text>
+<path d="M 502.0 130.0 L 518.0 130.0" fill="none" stroke="#8c959f" stroke-width="1.4" stroke-linecap="round" marker-end="url(#gray)"/>
+<rect x="523.0" y="82" width="220.5" height="96" rx="8" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<rect x="523.0" y="82" width="220.5" height="4" rx="2" fill="#8250df"/>
+<text x="537.0" y="112" font-size="13" fill="#1f2328" font-weight="600">started</text>
+<text x="729.5" y="112" font-size="10.5" fill="#818b98" text-anchor="end">t+2 s</text>
+<text x="537.0" y="136" font-size="11.5" fill="#59636e">node trace123</text>
+<text x="537.0" y="153" font-size="11.5" fill="#59636e">two seconds of queue</text>
+<path d="M 748.5 130.0 L 764.5 130.0" fill="none" stroke="#8c959f" stroke-width="1.4" stroke-linecap="round" marker-end="url(#gray)"/>
+<rect x="769.5" y="82" width="220.5" height="96" rx="8" fill="#ffffff" stroke="#1a7f37" stroke-width="1.5"/>
+<rect x="769.5" y="82" width="220.5" height="4" rx="2" fill="#1a7f37"/>
+<text x="783.5" y="112" font-size="13" fill="#1f2328" font-weight="600">completed</text>
+<text x="976.0" y="112" font-size="10.5" fill="#818b98" text-anchor="end">t+5 s</text>
+<text x="783.5" y="136" font-size="11.5" fill="#59636e">rc=0 after 3 s</text>
+<text x="783.5" y="153" font-size="11.5" fill="#59636e">confirmed against sacct</text>
+<text x="30" y="200" font-size="11.5" fill="#59636e">You call submit_job once and wait_for_events once. The three event boxes arrive on their own.</text>
+<rect x="30" y="230" width="960" height="96" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="48" y="256" font-size="13" fill="#1f2328" font-weight="600">And when it does not go well, that is an event too</text>
+<text x="48" y="274" font-size="11.5" fill="#59636e">Each one carries the exit code, the cause and the log path, so the next thing you ask can act on it.</text>
+<rect x="48" y="288" width="66.688" height="22" rx="11.0" fill="#ffebe9"/>
+<text x="56" y="302.96" font-size="11" fill="#cf222e" font-weight="600">preempted</text>
+<text x="48" y="322" font-size="10" fill="#818b98">higher-priority job took the node</text>
+<rect x="238.96" y="288" width="61.056" height="22" rx="11.0" fill="#fff8c5"/>
+<text x="246.96" y="302.96" font-size="11" fill="#9a6700" font-weight="600">requeued</text>
+<text x="238.96" y="322" font-size="10" fill="#818b98">put back in the queue, attempt 2</text>
+<rect x="424.8" y="288" width="55.424" height="22" rx="11.0" fill="#fff8c5"/>
+<text x="432.8" y="302.96" font-size="11" fill="#9a6700" font-weight="600">timeout</text>
+<text x="424.8" y="322" font-size="10" fill="#818b98">hit the wall clock</text>
+<rect x="538.96" y="288" width="32.896" height="22" rx="11.0" fill="#ffebe9"/>
+<text x="546.96" y="302.96" font-size="11" fill="#cf222e" font-weight="600">oom</text>
+<text x="538.96" y="322" font-size="10" fill="#818b98">killed for memory</text>
+<rect x="648.0" y="288" width="100.47999999999999" height="22" rx="11.0" fill="#ffebe9"/>
+<text x="656.0" y="302.96" font-size="11" fill="#cf222e" font-weight="600">needs_attention</text>
+<text x="648.0" y="322" font-size="10" fill="#818b98">restart loop, quota, stale heartbeat</text>
+<rect x="30" y="346" width="960" height="86" rx="8" fill="#ffffff" stroke="#1a7f37" stroke-width="1.5"/>
+<text x="48" y="372" font-size="13" fill="#1a7f37" font-weight="600">Close the laptop. The answer waits for you.</text>
+<circle cx="52.0" cy="394" r="4" fill="#1a7f37"/>
+<text x="64.0" y="398" font-size="11.5" fill="#1f2328" font-weight="600">delivered</text>
+<text x="64.0" y="416" font-size="10.8" fill="#59636e">handed to the session, but not yet marked seen</text>
+<circle cx="360.0" cy="394" r="4" fill="#1a7f37"/>
+<text x="372.0" y="398" font-size="11.5" fill="#1f2328" font-weight="600">acknowledged</text>
+<text x="372.0" y="416" font-size="10.8" fill="#59636e">only when you come back and confirm the batch</text>
+<line x1="344.0" y1="386" x2="344.0" y2="420" stroke="#d1d9e0" stroke-width="1" stroke-linecap="round"/>
+<circle cx="668.0" cy="394" r="4" fill="#1a7f37"/>
+<text x="680.0" y="398" font-size="11.5" fill="#1f2328" font-weight="600">otherwise replayed</text>
+<text x="680.0" y="416" font-size="10.8" fill="#59636e">a result lost to a dead session is re-sent, never dropped</text>
+<line x1="652.0" y1="386" x2="652.0" y2="420" stroke="#d1d9e0" stroke-width="1" stroke-linecap="round"/>
+</svg>

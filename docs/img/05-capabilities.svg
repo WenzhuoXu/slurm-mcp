@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="560" viewBox="0 0 1020 560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1020" height="560" fill="#ffffff"/>
+<text x="30" y="34" font-size="17" fill="#1f2328" font-weight="600">Twenty tools, and you never have to name one of them</text>
+<text x="30" y="54" font-size="12.5" fill="#59636e">You say the sentence. Claude picks the tools. This is the whole surface, grouped by what you are trying to get done.</text>
+<rect x="30.0" y="86" width="306.6666666666667" height="196" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="30.0" y="86" width="306.6666666666667" height="4" rx="2" fill="#0969da"/>
+<text x="46.0" y="118" font-size="14" fill="#1f2328" font-weight="600">See what you have</text>
+<rect x="46.0" y="132" width="274.6666666666667" height="44" rx="6" fill="#f6f8fa"/>
+<text x="58.0" y="152" font-size="11.5" fill="#59636e" font-style="italic">“what&#x27;s free on either cluster right</text>
+<text x="58.0" y="167" font-size="11.5" fill="#59636e" font-style="italic">now?”</text>
+<text x="46.0" y="198" font-size="9.5" fill="#818b98" font-weight="700">reaches for</text>
+<rect x="46.0" y="208" width="68.888" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="54.0" y="223" font-size="11" fill="#0969da" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">clusters</text>
+<rect x="121.888" y="208" width="108.554" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="129.888" y="223" font-size="11" fill="#0969da" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">cluster_status</text>
+<rect x="237.442" y="208" width="75.499" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="245.442" y="223" font-size="11" fill="#0969da" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">list_jobs</text>
+<rect x="356.6666666666667" y="86" width="306.6666666666667" height="196" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="356.6666666666667" y="86" width="306.6666666666667" height="4" rx="2" fill="#8250df"/>
+<text x="372.6666666666667" y="118" font-size="14" fill="#1f2328" font-weight="600">Decide where it runs</text>
+<rect x="372.6666666666667" y="132" width="274.6666666666667" height="44" rx="6" fill="#f6f8fa"/>
+<text x="384.6666666666667" y="152" font-size="11.5" fill="#59636e" font-style="italic">“where would this start soonest without</text>
+<text x="384.6666666666667" y="167" font-size="11.5" fill="#59636e" font-style="italic">burning SUs?”</text>
+<text x="372.6666666666667" y="198" font-size="9.5" fill="#818b98" font-weight="700">reaches for</text>
+<rect x="372.6666666666667" y="208" width="68.888" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="380.6666666666667" y="223" font-size="11" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">plan_job</text>
+<rect x="448.55466666666666" y="208" width="75.499" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="456.55466666666666" y="223" font-size="11" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">rebalance</text>
+<rect x="683.3333333333334" y="86" width="306.6666666666667" height="196" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="683.3333333333334" y="86" width="306.6666666666667" height="4" rx="2" fill="#1a7f37"/>
+<text x="699.3333333333334" y="118" font-size="14" fill="#1f2328" font-weight="600">Run it</text>
+<rect x="699.3333333333334" y="132" width="274.6666666666667" height="44" rx="6" fill="#f6f8fa"/>
+<text x="711.3333333333334" y="152" font-size="11.5" fill="#59636e" font-style="italic">“run this sweep, four at a time”</text>
+<text x="699.3333333333334" y="198" font-size="9.5" fill="#818b98" font-weight="700">reaches for</text>
+<rect x="699.3333333333334" y="208" width="82.11" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="707.3333333333334" y="223" font-size="11" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">submit_job</text>
+<rect x="788.4433333333334" y="208" width="68.888" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="796.4433333333334" y="223" font-size="11" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">allocate</text>
+<rect x="864.3313333333334" y="208" width="75.499" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="872.3313333333334" y="223" font-size="11" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">alloc_run</text>
+<rect x="699.3333333333334" y="234" width="88.721" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="707.3333333333334" y="249" font-size="11" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">run_command</text>
+<rect x="30.0" y="302" width="306.6666666666667" height="196" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="30.0" y="302" width="306.6666666666667" height="4" rx="2" fill="#0f766e"/>
+<text x="46.0" y="334" font-size="14" fill="#1f2328" font-weight="600">Watch it</text>
+<rect x="46.0" y="348" width="274.6666666666667" height="44" rx="6" fill="#f6f8fa"/>
+<text x="58.0" y="368" font-size="11.5" fill="#59636e" font-style="italic">“tell me when it finishes, and why if it</text>
+<text x="58.0" y="383" font-size="11.5" fill="#59636e" font-style="italic">doesn&#x27;t”</text>
+<text x="46.0" y="414" font-size="9.5" fill="#818b98" font-weight="700">reaches for</text>
+<rect x="46.0" y="424" width="115.165" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="54.0" y="439" font-size="11" fill="#0f766e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">wait_for_events</text>
+<rect x="168.16500000000002" y="424" width="82.11" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="176.16500000000002" y="439" font-size="11" fill="#0f766e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">job_status</text>
+<rect x="46.0" y="450" width="68.888" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="54.0" y="465" font-size="11" fill="#0f766e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">job_logs</text>
+<rect x="356.6666666666667" y="302" width="306.6666666666667" height="196" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="356.6666666666667" y="302" width="306.6666666666667" height="4" rx="2" fill="#9a6700"/>
+<text x="372.6666666666667" y="334" font-size="14" fill="#1f2328" font-weight="600">Steer it</text>
+<rect x="372.6666666666667" y="348" width="274.6666666666667" height="44" rx="6" fill="#f6f8fa"/>
+<text x="384.6666666666667" y="368" font-size="11.5" fill="#59636e" font-style="italic">“kill the stuck one and move the rest</text>
+<text x="384.6666666666667" y="383" font-size="11.5" fill="#59636e" font-style="italic">somewhere faster”</text>
+<text x="372.6666666666667" y="414" font-size="9.5" fill="#818b98" font-weight="700">reaches for</text>
+<rect x="372.6666666666667" y="424" width="88.721" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="380.6666666666667" y="439" font-size="11" fill="#9a6700" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">job_control</text>
+<rect x="468.3876666666667" y="424" width="75.499" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="476.3876666666667" y="439" font-size="11" fill="#9a6700" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">configure</text>
+<rect x="683.3333333333334" y="302" width="306.6666666666667" height="196" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="683.3333333333334" y="302" width="306.6666666666667" height="4" rx="2" fill="#cf222e"/>
+<text x="699.3333333333334" y="334" font-size="14" fill="#1f2328" font-weight="600">Move the data</text>
+<rect x="699.3333333333334" y="348" width="274.6666666666667" height="44" rx="6" fill="#f6f8fa"/>
+<text x="711.3333333333334" y="368" font-size="11.5" fill="#59636e" font-style="italic">“bring the outputs back and show me the</text>
+<text x="711.3333333333334" y="383" font-size="11.5" fill="#59636e" font-style="italic">log”</text>
+<text x="699.3333333333334" y="414" font-size="9.5" fill="#818b98" font-weight="700">reaches for</text>
+<rect x="699.3333333333334" y="424" width="55.666" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="707.3333333333334" y="439" font-size="11" fill="#cf222e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">upload</text>
+<rect x="761.9993333333334" y="424" width="68.888" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="769.9993333333334" y="439" font-size="11" fill="#cf222e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">download</text>
+<rect x="837.8873333333335" y="424" width="115.165" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="845.8873333333335" y="439" font-size="11" fill="#cf222e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">collect_results</text>
+<rect x="699.3333333333334" y="450" width="75.499" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="707.3333333333334" y="465" font-size="11" fill="#cf222e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">remote_ls</text>
+<rect x="781.8323333333334" y="450" width="88.721" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="789.8323333333334" y="465" font-size="11" fill="#cf222e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">remote_read</text>
+<rect x="877.5533333333334" y="450" width="95.332" height="21" rx="5" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="885.5533333333334" y="465" font-size="11" fill="#cf222e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600">remote_write</text>
+<text x="30" y="544" font-size="11" fill="#818b98">Read-only tools (clusters, cluster_status, list_jobs, job_status, job_logs, plan_job, wait_for_events, remote_ls, remote_read) can be allow-listed so they never prompt.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="560" viewBox="0 0 1020 560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1020" height="560" fill="#ffffff"/>
+<defs><marker id="gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#818b98"/></marker></defs>
+<text x="30" y="34" font-size="17" fill="#1f2328" font-weight="600">You already know how to do this. That is the problem.</text>
+<text x="30" y="54" font-size="12.5" fill="#59636e">The right-hand column is one sentence to Claude Code. Everything under it is what the server did on its own.</text>
+<rect x="30" y="84" width="470" height="430" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<text x="48" y="112" font-size="11" fill="#59636e" font-weight="700">BY HAND</text>
+<text x="48" y="132" font-size="11.5" fill="#818b98">every time, for every job, on every cluster</text>
+<text x="48" y="160" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="160" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">ssh you@trace.cmu.edu</text>
+<text x="62" y="175" font-size="11" fill="#818b98" font-style="italic">and again for the other cluster</text>
+<text x="48" y="199" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="199" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">sinfo -o &#x27;%P %a %l %D %t&#x27;</text>
+<text x="62" y="214" font-size="11" fill="#818b98" font-style="italic">which partition is free right now?</text>
+<text x="48" y="238" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="238" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">squeue -p cpuonly | wc -l</text>
+<text x="62" y="253" font-size="11" fill="#818b98" font-style="italic">…and how long is the line?</text>
+<text x="48" y="277" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="277" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">sacctmgr show assoc user=$USER</text>
+<text x="62" y="292" font-size="11" fill="#818b98" font-style="italic">am I even allowed on it? which QOS?</text>
+<text x="48" y="316" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="316" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">vim run.sh</text>
+<text x="62" y="331" font-size="11" fill="#818b98" font-style="italic">hand-write #SBATCH, get --qos wrong, retry</text>
+<text x="48" y="355" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="355" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">sbatch run.sh</text>
+<text x="62" y="370" font-size="11" fill="#818b98" font-style="italic">615819. now what?</text>
+<text x="48" y="394" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="394" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">watch -n30 squeue -u $USER</text>
+<text x="62" y="409" font-size="11" fill="#818b98" font-style="italic">sit there, or forget about it for a day</text>
+<text x="48" y="433" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="433" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">sacct -j 615819 -X</text>
+<text x="62" y="448" font-size="11" fill="#818b98" font-style="italic">preempted? requeued? exit code?</text>
+<text x="48" y="472" font-size="11.5" fill="#818b98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">$</text>
+<text x="62" y="472" font-size="11.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">scp -r trace:...:/out ./</text>
+<text x="62" y="487" font-size="11" fill="#818b98" font-style="italic">find the files, guess the path</text>
+<rect x="520" y="84" width="470" height="430" rx="8" fill="#ffffff" stroke="#1a7f37" stroke-width="1.5"/>
+<text x="538" y="112" font-size="11" fill="#1a7f37" font-weight="700">WITH slurm-mcp</text>
+<rect x="538" y="126" width="434" height="58" rx="10" fill="#f0f6ff" stroke="#c8e1ff" stroke-width="1"/>
+<text x="554" y="150" font-size="13" fill="#0a3069">“Run this Monte Carlo wherever it starts soonest. Don&#x27;t</text>
+<text x="554" y="169" font-size="13" fill="#0a3069">spend SUs if you don&#x27;t have to. Tell me when it&#x27;s done.”</text>
+<text x="554" y="200" font-size="10.5" fill="#818b98">you, in the chat</text>
+<line x1="538" y1="228" x2="972" y2="228" stroke="#d1d9e0" stroke-width="1" stroke-linecap="round"/>
+<circle cx="546" cy="250" r="3.5" fill="#1a7f37"/>
+<text x="560" y="254" font-size="12.5" fill="#1f2328" font-weight="600">ranked</text>
+<text x="608.4" y="254" font-size="12" fill="#59636e">5 targets across both clusters, with a real sbatch</text>
+<text x="560" y="270" font-size="12" fill="#59636e">--test-only start estimate</text>
+<circle cx="546" cy="298" r="3.5" fill="#1a7f37"/>
+<text x="560" y="302" font-size="12.5" fill="#1f2328" font-weight="600">chose</text>
+<text x="602.0" y="302" font-size="12" fill="#59636e">trace:cpuonly-debug — free, ~0 h wait — over</text>
+<text x="560" y="318" font-size="12" fill="#59636e">bridges2:RM-small at 0.33 SU</text>
+<circle cx="546" cy="346" r="3.5" fill="#1a7f37"/>
+<text x="560" y="350" font-size="12.5" fill="#1f2328" font-weight="600">submitted</text>
+<text x="627.6" y="350" font-size="12" fill="#59636e">615819, with --qos, -A, --requeue and the output paths</text>
+<text x="560" y="366" font-size="12" fill="#59636e">filled in for you</text>
+<circle cx="546" cy="394" r="3.5" fill="#1a7f37"/>
+<text x="560" y="398" font-size="12.5" fill="#1f2328" font-weight="600">watched</text>
+<text x="614.8" y="398" font-size="12" fill="#59636e">started on trace123 after 2 s, completed rc=0 after 3 s</text>
+<circle cx="546" cy="426" r="3.5" fill="#1a7f37"/>
+<text x="560" y="430" font-size="12.5" fill="#1f2328" font-weight="600">delivered</text>
+<text x="627.6" y="430" font-size="12" fill="#59636e">2 files on this laptop, π = 3.141338</text>
+<rect x="538" y="440" width="434" height="56" rx="8" fill="#dafbe1"/>
+<text x="554" y="463" font-size="12.5" fill="#1a7f37" font-weight="600">One message. 107 s from ask to files on disk,</text>
+<text x="554" y="482" font-size="12.5" fill="#1a7f37" font-weight="600">3 s of which was the job itself. None of it was you.</text>
+<text x="30" y="544" font-size="11" fill="#818b98">Numbers recorded from a real run on CMU TRACE, 2026-09-02. Nothing here is a mock-up.</text>
+</svg>
