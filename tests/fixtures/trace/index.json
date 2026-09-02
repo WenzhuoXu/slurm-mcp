@@ -1,0 +1,176 @@
+{
+  "sinfo_partitions": {
+    "cmd": "sinfo -h -o \"%P|%a|%l|%D|%t|%C|%G|%m|%F|%N\"",
+    "rc": 0,
+    "stdout_bytes": 686,
+    "stderr_bytes": 0
+  },
+  "sinfo_nodes": {
+    "cmd": "sinfo -h -N -o \"%N|%P|%t|%c|%m|%G|%f|%C|%e|%O\"",
+    "rc": 0,
+    "stdout_bytes": 6157,
+    "stderr_bytes": 0
+  },
+  "sinfo_summary": {
+    "cmd": "sinfo -s -h -o \"%P|%a|%l|%F|%N\"",
+    "rc": 0,
+    "stdout_bytes": 176,
+    "stderr_bytes": 0
+  },
+  "scontrol_partitions": {
+    "cmd": "scontrol show partition -o",
+    "rc": 0,
+    "stdout_bytes": 2509,
+    "stderr_bytes": 0
+  },
+  "scontrol_config": {
+    "cmd": "scontrol show config",
+    "rc": 0,
+    "stdout_bytes": 8259,
+    "stderr_bytes": 0
+  },
+  "squeue_me": {
+    "cmd": "squeue -u $USER -h -o \"%i|%j|%T|%P|%R|%M|%l|%D|%C|%b|%S|%V|%Q|%r|%N|%o|%Z|%u|%a|%q|%k|%e|%L\"",
+    "rc": 0,
+    "stdout_bytes": 3745,
+    "stderr_bytes": 0
+  },
+  "squeue_me_start": {
+    "cmd": "squeue -u $USER --start -h -o \"%i|%j|%P|%S|%R|%Q|%T\"",
+    "rc": 0,
+    "stdout_bytes": 587,
+    "stderr_bytes": 0
+  },
+  "squeue_all_counts": {
+    "cmd": "squeue -h -o \"%P|%T|%b\" | sort | uniq -c",
+    "rc": 0,
+    "stdout_bytes": 108,
+    "stderr_bytes": 0
+  },
+  "sacct_me_alloc": {
+    "cmd": "sacct -u $USER -X -n -P -S $(date -d \"45 days ago\" +%F) --format=JobID,JobIDRaw,JobName,State,ExitCode,DerivedExitCode,Elapsed,ElapsedRaw,Start,End,Submit,Partition,Account,QOS,NodeList,AllocTRES,ReqTRES,MaxRSS,TotalCPU,Reason,WorkDir,Timelimit,TimelimitRaw,NCPUS,NNodes,Flags,SubmitLine",
+    "rc": 0,
+    "stdout_bytes": 14535,
+    "stderr_bytes": 0
+  },
+  "sacct_me_steps": {
+    "cmd": "sacct -u $USER -n -P -S $(date -d \"10 days ago\" +%F) --format=JobID,JobIDRaw,JobName,State,ExitCode,DerivedExitCode,Elapsed,ElapsedRaw,Start,End,Submit,Partition,Account,QOS,NodeList,AllocTRES,ReqTRES,MaxRSS,TotalCPU,Reason,WorkDir,Timelimit,TimelimitRaw,NCPUS,NNodes,Flags,SubmitLine",
+    "rc": 0,
+    "stdout_bytes": 25133,
+    "stderr_bytes": 0
+  },
+  "sacct_bad_job": {
+    "cmd": "sacct -j 1 -n -P --format=JobID,State",
+    "rc": 0,
+    "stdout_bytes": 21,
+    "stderr_bytes": 0
+  },
+  "sprio_me": {
+    "cmd": "sprio -u $USER -o \"%i|%r|%Y|%A|%F|%J|%P|%Q|%T\"",
+    "rc": 0,
+    "stdout_bytes": 251,
+    "stderr_bytes": 0
+  },
+  "sshare_me": {
+    "cmd": "sshare -U -P",
+    "rc": 0,
+    "stdout_bytes": 120,
+    "stderr_bytes": 0
+  },
+  "sacctmgr_assoc": {
+    "cmd": "sacctmgr -n -P show assoc user=$USER format=cluster,account,partition,qos,maxjobs,maxsubmit,grptres",
+    "rc": 0,
+    "stdout_bytes": 79,
+    "stderr_bytes": 0
+  },
+  "sacctmgr_qos": {
+    "cmd": "sacctmgr -n -P show qos format=name,priority,maxwall,maxtrespu,maxjobspu,maxsubmitpu,grptres,maxtres,flags",
+    "rc": 0,
+    "stdout_bytes": 725,
+    "stderr_bytes": 0
+  },
+  "sbatch_test_only_ok": {
+    "cmd": "sbatch --test-only -N 1 -n 1 -t 0:10:00 --wrap hostname",
+    "rc": 0,
+    "stdout_bytes": 0,
+    "stderr_bytes": 111
+  },
+  "sbatch_test_only_bad_partition": {
+    "cmd": "sbatch --test-only -p no_such_partition -N 1 -n 1 -t 0:10:00 --wrap hostname",
+    "rc": 1,
+    "stdout_bytes": 0,
+    "stderr_bytes": 115
+  },
+  "sbatch_test_only_bad_gres": {
+    "cmd": "sbatch --test-only --gres=gpu:nosuchgpu:1 -N 1 -n 1 -t 0:10:00 --wrap hostname",
+    "rc": 1,
+    "stdout_bytes": 0,
+    "stderr_bytes": 66
+  },
+  "sbatch_test_only_bad_time": {
+    "cmd": "sbatch --test-only -N 1 -n 1 -t 99-00:00:00 --wrap hostname",
+    "rc": 1,
+    "stdout_bytes": 0,
+    "stderr_bytes": 151
+  },
+  "scancel_bad_job": {
+    "cmd": "scancel 1",
+    "rc": 0,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0
+  },
+  "scontrol_show_job_missing": {
+    "cmd": "scontrol show job 1 -o",
+    "rc": 1,
+    "stdout_bytes": 0,
+    "stderr_bytes": 48
+  },
+  "env": {
+    "cmd": "echo \"HOME=$HOME\"; echo \"USER=$USER\"; echo \"PROJECT=${PROJECT:-}\"; echo \"SHELL=$SHELL\"; echo \"SLURM=$(sinfo --version)\"",
+    "rc": 0,
+    "stdout_bytes": 78,
+    "stderr_bytes": 0
+  },
+  "tools": {
+    "cmd": "for t in sbatch squeue sacct sinfo scontrol scancel sprio sshare sacctmgr seff sstat tar jq rsync python3 flock timeout; do printf \"%s=\" $t; command -v $t || echo -; done",
+    "rc": 0,
+    "stdout_bytes": 481,
+    "stderr_bytes": 0
+  },
+  "df_home": {
+    "cmd": "df -hP $HOME | tail -1; df -hP ${PROJECT:-$HOME} | tail -1",
+    "rc": 0,
+    "stdout_bytes": 100,
+    "stderr_bytes": 0
+  },
+  "quota": {
+    "cmd": "quota -s 2>&1 | head -20",
+    "rc": 0,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0
+  },
+  "scontrol_show_job_615411": {
+    "cmd": "scontrol show job 615411 -o",
+    "rc": 0,
+    "stdout_bytes": 1430,
+    "stderr_bytes": 0
+  },
+  "sacct_job_615411": {
+    "cmd": "sacct -j 615411 -n -P --format=JobID,JobIDRaw,JobName,State,ExitCode,DerivedExitCode,Elapsed,ElapsedRaw,Start,End,Submit,Partition,Account,QOS,NodeList,AllocTRES,ReqTRES,MaxRSS,TotalCPU,Reason,WorkDir,Timelimit,TimelimitRaw,NCPUS,NNodes,Flags,SubmitLine",
+    "rc": 0,
+    "stdout_bytes": 792,
+    "stderr_bytes": 0
+  },
+  "scontrol_show_job_615427": {
+    "cmd": "scontrol show job 615427 -o",
+    "rc": 0,
+    "stdout_bytes": 1344,
+    "stderr_bytes": 0
+  },
+  "sacct_job_615427": {
+    "cmd": "sacct -j 615427 -n -P --format=JobID,JobIDRaw,JobName,State,ExitCode,DerivedExitCode,Elapsed,ElapsedRaw,Start,End,Submit,Partition,Account,QOS,NodeList,AllocTRES,ReqTRES,MaxRSS,TotalCPU,Reason,WorkDir,Timelimit,TimelimitRaw,NCPUS,NNodes,Flags,SubmitLine",
+    "rc": 0,
+    "stdout_bytes": 309,
+    "stderr_bytes": 0
+  }
+}

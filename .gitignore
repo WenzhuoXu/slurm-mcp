@@ -1,0 +1,31 @@
+# virtualenv
+.venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# tool caches
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.mypy_cache/
+
+# local state: the SQLite ledger, host keys and cluster profiles live in
+# ~/.slurm-mcp, never in the tree, but keep a stray copy out of git anyway
+.slurm-mcp/
+*.db
+*.db-wal
+*.db-shm
+
+# collected job outputs
+slurm-mcp-results/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

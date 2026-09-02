@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="786" height="1817" viewBox="0 0 786 1817" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace" font-size="12">
+<rect width="786" height="1817" rx="8" fill="#12141a"/>
+<path d="M0 8a8 8 0 0 1 8-8h770a8 8 0 0 1 8 8v20H0z" fill="#1b1e26"/>
+<circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+<circle cx="34" cy="14" r="5" fill="#febc2e"/>
+<circle cx="52" cy="14" r="5" fill="#28c840"/>
+<text x="393" y="18" fill="#6e7681" font-size="11" text-anchor="middle">cluster_status(&#x27;trace&#x27;) — live partitions and queue depth</text>
+<text x="14" y="38.0" fill="#79c0ff" xml:space="preserve">&gt; cluster_status(</text>
+<text x="14" y="55.5" fill="#c9d1d9" xml:space="preserve">    &quot;cluster&quot;: &quot;trace&quot;,</text>
+<text x="14" y="73.0" fill="#c9d1d9" xml:space="preserve">    &quot;refresh&quot;: true</text>
+<text x="14" y="90.5" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="108.0" fill="#7ee787" xml:space="preserve">  &quot;summary&quot;: &quot;trace: 4 partitions (4 shown), idle GPU nodes batch=1 biosimmlab=1, 11 pending jobs clust…</text>
+<text x="14" y="125.5" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="143.0" fill="#c9d1d9" xml:space="preserve">  &quot;cluster&quot;: &quot;trace&quot;,</text>
+<text x="14" y="160.5" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="178.0" fill="#c9d1d9" xml:space="preserve">      &quot;name&quot;: &quot;batch&quot;,</text>
+<text x="14" y="195.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="213.0" fill="#c9d1d9" xml:space="preserve">      &quot;preempt_mode&quot;: &quot;REQUEUE&quot;,</text>
+<text x="14" y="230.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="248.0" fill="#c9d1d9" xml:space="preserve">      &quot;max_wall_s&quot;: 172800,</text>
+<text x="14" y="265.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="283.0" fill="#c9d1d9" xml:space="preserve">      &quot;nodes&quot;: {</text>
+<text x="14" y="300.5" fill="#c9d1d9" xml:space="preserve">        &quot;idle&quot;: 1,</text>
+<text x="14" y="318.0" fill="#c9d1d9" xml:space="preserve">        &quot;mix&quot;: 7,</text>
+<text x="14" y="335.5" fill="#c9d1d9" xml:space="preserve">        &quot;alloc&quot;: 21,</text>
+<text x="14" y="353.0" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="370.5" fill="#c9d1d9" xml:space="preserve">        &quot;total&quot;: 29</text>
+<text x="14" y="388.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="405.5" fill="#c9d1d9" xml:space="preserve">        &quot;a40&quot;</text>
+<text x="14" y="423.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="440.5" fill="#c9d1d9" xml:space="preserve">        &quot;pending&quot;: 2,</text>
+<text x="14" y="458.0" fill="#c9d1d9" xml:space="preserve">        &quot;running&quot;: 0</text>
+<text x="14" y="475.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="493.0" fill="#c9d1d9" xml:space="preserve">        &quot;max_wall_s&quot;: 172800,</text>
+<text x="14" y="510.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="528.0" fill="#c9d1d9" xml:space="preserve">      &quot;qos&quot;: &quot;normal&quot;,</text>
+<text x="14" y="545.5" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: &quot;free&quot;</text>
+<text x="14" y="563.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="580.5" fill="#c9d1d9" xml:space="preserve">      &quot;name&quot;: &quot;biosimmlab&quot;,</text>
+<text x="14" y="598.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="615.5" fill="#c9d1d9" xml:space="preserve">      &quot;preempt_mode&quot;: &quot;GANG,REQUEUE&quot;,</text>
+<text x="14" y="633.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="650.5" fill="#c9d1d9" xml:space="preserve">      &quot;max_wall_s&quot;: 172800,</text>
+<text x="14" y="668.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="685.5" fill="#c9d1d9" xml:space="preserve">      &quot;nodes&quot;: {</text>
+<text x="14" y="703.0" fill="#c9d1d9" xml:space="preserve">        &quot;idle&quot;: 1,</text>
+<text x="14" y="720.5" fill="#c9d1d9" xml:space="preserve">        &quot;mix&quot;: 7,</text>
+<text x="14" y="738.0" fill="#c9d1d9" xml:space="preserve">        &quot;alloc&quot;: 21,</text>
+<text x="14" y="755.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="773.0" fill="#c9d1d9" xml:space="preserve">        &quot;total&quot;: 29</text>
+<text x="14" y="790.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="808.0" fill="#c9d1d9" xml:space="preserve">        &quot;a40&quot;</text>
+<text x="14" y="825.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="843.0" fill="#c9d1d9" xml:space="preserve">        &quot;pending&quot;: 0,</text>
+<text x="14" y="860.5" fill="#c9d1d9" xml:space="preserve">        &quot;running&quot;: 0</text>
+<text x="14" y="878.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="895.5" fill="#c9d1d9" xml:space="preserve">        &quot;max_wall_s&quot;: 172800,</text>
+<text x="14" y="913.0" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="930.5" fill="#c9d1d9" xml:space="preserve">      &quot;qos&quot;: &quot;normal&quot;,</text>
+<text x="14" y="948.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: &quot;free&quot;</text>
+<text x="14" y="965.5" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="983.0" fill="#c9d1d9" xml:space="preserve">      &quot;name&quot;: &quot;cpuonly&quot;,</text>
+<text x="14" y="1000.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1018.0" fill="#c9d1d9" xml:space="preserve">      &quot;preempt_mode&quot;: &quot;GANG,REQUEUE&quot;,</text>
+<text x="14" y="1035.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1053.0" fill="#c9d1d9" xml:space="preserve">      &quot;max_wall_s&quot;: 172800,</text>
+<text x="14" y="1070.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1088.0" fill="#c9d1d9" xml:space="preserve">      &quot;nodes&quot;: {</text>
+<text x="14" y="1105.5" fill="#c9d1d9" xml:space="preserve">        &quot;idle&quot;: 0,</text>
+<text x="14" y="1123.0" fill="#c9d1d9" xml:space="preserve">        &quot;mix&quot;: 2,</text>
+<text x="14" y="1140.5" fill="#c9d1d9" xml:space="preserve">        &quot;alloc&quot;: 20,</text>
+<text x="14" y="1158.0" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1175.5" fill="#c9d1d9" xml:space="preserve">        &quot;total&quot;: 23</text>
+<text x="14" y="1193.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1210.5" fill="#c9d1d9" xml:space="preserve">        &quot;pending&quot;: 0,</text>
+<text x="14" y="1228.0" fill="#c9d1d9" xml:space="preserve">        &quot;running&quot;: 0</text>
+<text x="14" y="1245.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1263.0" fill="#c9d1d9" xml:space="preserve">        &quot;max_wall_s&quot;: 172800,</text>
+<text x="14" y="1280.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1298.0" fill="#c9d1d9" xml:space="preserve">      &quot;qos&quot;: &quot;cpuonly-debug-qos&quot;,</text>
+<text x="14" y="1315.5" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: &quot;free&quot;</text>
+<text x="14" y="1333.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="1350.5" fill="#c9d1d9" xml:space="preserve">      &quot;name&quot;: &quot;cpuonly-debug&quot;,</text>
+<text x="14" y="1368.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1385.5" fill="#c9d1d9" xml:space="preserve">      &quot;preempt_mode&quot;: &quot;GANG,REQUEUE&quot;,</text>
+<text x="14" y="1403.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1420.5" fill="#c9d1d9" xml:space="preserve">      &quot;max_wall_s&quot;: 14400,</text>
+<text x="14" y="1438.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1455.5" fill="#c9d1d9" xml:space="preserve">      &quot;nodes&quot;: {</text>
+<text x="14" y="1473.0" fill="#c9d1d9" xml:space="preserve">        &quot;idle&quot;: 0,</text>
+<text x="14" y="1490.5" fill="#c9d1d9" xml:space="preserve">        &quot;mix&quot;: 1,</text>
+<text x="14" y="1508.0" fill="#c9d1d9" xml:space="preserve">        &quot;alloc&quot;: 0,</text>
+<text x="14" y="1525.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1543.0" fill="#c9d1d9" xml:space="preserve">        &quot;total&quot;: 1</text>
+<text x="14" y="1560.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1578.0" fill="#c9d1d9" xml:space="preserve">        &quot;pending&quot;: 0,</text>
+<text x="14" y="1595.5" fill="#c9d1d9" xml:space="preserve">        &quot;running&quot;: 0</text>
+<text x="14" y="1613.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1630.5" fill="#c9d1d9" xml:space="preserve">        &quot;max_wall_s&quot;: 14400,</text>
+<text x="14" y="1648.0" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1665.5" fill="#c9d1d9" xml:space="preserve">      &quot;qos&quot;: &quot;cpuonly-debug-qos&quot;,</text>
+<text x="14" y="1683.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: &quot;free&quot;</text>
+<text x="14" y="1700.5" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="1718.0" fill="#c9d1d9" xml:space="preserve">  &quot;su_balance&quot;: null,</text>
+<text x="14" y="1735.5" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="1753.0" fill="#c9d1d9" xml:space="preserve">  &quot;slurm_version&quot;: &quot;22.05.11&quot;,</text>
+<text x="14" y="1770.5" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="1788.0" fill="#6e7681" xml:space="preserve">[3.8s]</text>
+</svg>

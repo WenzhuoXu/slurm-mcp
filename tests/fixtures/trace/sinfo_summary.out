@@ -1,0 +1,4 @@
+batch|up|infinite|29/0/0/29|trace[01-29]
+cpuonly|up|2-00:00:00|22/0/1/23|trace[100-122]
+cpuonly-debug|up|4:00:00|0/1/0/1|trace123
+biosimmlab|up|infinite|29/0/0/29|trace[01-29]

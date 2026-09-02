@@ -1,0 +1,33 @@
+[project]
+name = "slurm-mcp"
+version = "0.1.0"
+description = "MCP server that provisions, submits, monitors, balances and collects SLURM jobs on remote HPC clusters over SSH"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=2.1,<3",
+  "asyncssh>=2.24",
+  "keyring>=25",
+  "pydantic>=2.12",
+  "psutil>=5.9",
+  "pathspec>=0.12",
+  "win11toast>=0.36; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.24", "hypothesis>=6", "ruff>=0.6"]
+
+[project.scripts]
+slurm-mcp = "slurm_mcp.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/slurm_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+filterwarnings = ["ignore:coroutine 'Queue.join' was never awaited:RuntimeWarning"]  # asyncssh stdin redirect teardown

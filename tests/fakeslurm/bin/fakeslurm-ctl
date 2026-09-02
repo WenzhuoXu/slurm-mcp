@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# fakeslurm shim: dispatches to fakeslurm.py with the command name as first argument.
+here="$(dirname "$0")"
+exec "${FAKESLURM_PYTHON:-python}" "$here/../fakeslurm.py" "$(basename "$0")" "$@"

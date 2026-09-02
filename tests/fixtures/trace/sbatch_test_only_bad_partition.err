@@ -1,0 +1,2 @@
+sbatch: error: invalid partition specified: no_such_partition
+allocation failure: Invalid partition name specified

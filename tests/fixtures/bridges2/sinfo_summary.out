@@ -1,0 +1,13 @@
+RM*|up|infinite|458/1/25/484|r[005-488]
+RM-512|up|infinite|15/0/0/15|l[002-016]
+RM-shared|up|infinite|375/1/20/396|r[005-400]
+RM-small|up|infinite|3/0/1/4|r[001-004]
+GPU|up|infinite|43/1/2/46|gl[001-003],v[002-034],w[001-010]
+GPU-shared|up|infinite|43/1/2/46|gl[001-003],v[002-034],w[001-010]
+GPU-small|up|infinite|1/0/0/1|v001
+EM|up|infinite|4/0/0/4|e[001-004]
+ROBO|up|infinite|4/1/0/5|robo-gh[001-003,005-006]
+ROBO-8|up|infinite|1/0/0/1|robo-gh004
+HACC|up|infinite|0/0/5/5|hacc-gm[001-005]
+GPU-dev|up|infinite|0/1/0/1|a001
+applications|up|8:00:00|0/1/0/1|l001

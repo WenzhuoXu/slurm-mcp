@@ -1,0 +1,15 @@
+# Everything in this repo is read by Linux at some point, so normalise to LF in the object store.
+* text=auto eol=lf
+
+# These are uploaded verbatim to a cluster and run by bash there. A CRLF checkout on Windows would
+# ship them with \r line endings and every one would die on "bash: $'\r': command not found", so
+# they are pinned to LF regardless of the developer's core.autocrlf.
+*.sh text eol=lf
+src/slurm_mcp/helpers/* text eol=lf
+tests/fakeslurm/bin/* text eol=lf
+
+# Recorded cluster output: byte-for-byte fixtures, never touched.
+tests/fixtures/** -text
+
+*.png binary
+*.pdf binary

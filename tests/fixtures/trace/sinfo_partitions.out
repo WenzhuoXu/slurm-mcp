@@ -1,0 +1,8 @@
+batch|up|infinite|6|mix|666/102/0/768|gpu:a40:1|2063700|6/0/0/6|trace[01,07-09,22,28]
+batch|up|infinite|23|alloc|2944/0/0/2944|gpu:a40:1|2063700|23/0/0/23|trace[02-06,10-21,23-27,29]
+cpuonly|up|2-00:00:00|1|down*|0/0/96/96|(null)|773572|0/0/1/1|trace106
+cpuonly|up|2-00:00:00|1|mix|32/64/0/96|(null)|773572|1/0/0/1|trace101
+cpuonly|up|2-00:00:00|21|alloc|2016/0/0/2016|(null)|773572|21/0/0/21|trace[100,102-105,107-122]
+cpuonly-debug|up|4:00:00|1|idle|0/96/0/96|(null)|773572|0/1/0/1|trace123
+biosimmlab|up|infinite|6|mix|666/102/0/768|gpu:a40:1|2063700|6/0/0/6|trace[01,07-09,22,28]
+biosimmlab|up|infinite|23|alloc|2944/0/0/2944|gpu:a40:1|2063700|23/0/0/23|trace[02-06,10-21,23-27,29]

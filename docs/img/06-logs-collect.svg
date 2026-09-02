@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="786" height="627" viewBox="0 0 786 627" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace" font-size="12">
+<rect width="786" height="627" rx="8" fill="#12141a"/>
+<path d="M0 8a8 8 0 0 1 8-8h770a8 8 0 0 1 8 8v20H0z" fill="#1b1e26"/>
+<circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+<circle cx="34" cy="14" r="5" fill="#febc2e"/>
+<circle cx="52" cy="14" r="5" fill="#28c840"/>
+<text x="393" y="18" fill="#6e7681" font-size="11" text-anchor="middle">job_logs() and collect_results() — the output, then the files on your machine</text>
+<text x="14" y="38.0" fill="#79c0ff" xml:space="preserve">&gt; job_logs(</text>
+<text x="14" y="55.5" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="73.0" fill="#c9d1d9" xml:space="preserve">    &quot;stream&quot;: &quot;out&quot;,</text>
+<text x="14" y="90.5" fill="#c9d1d9" xml:space="preserve">    &quot;tail_lines&quot;: 40</text>
+<text x="14" y="108.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="125.5" fill="#7ee787" xml:space="preserve">  &quot;summary&quot;: &quot;j7 COMPLETED: 12 line(s) of out from /trace/group/biosimmlab/wxu2/.slurm-mcp/jobs/j7/out/…</text>
+<text x="14" y="143.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="160.5" fill="#7ee787" xml:space="preserve">  &quot;state&quot;: &quot;COMPLETED&quot;,</text>
+<text x="14" y="178.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="195.5" fill="#c9d1d9" xml:space="preserve">    &quot;text&quot;: &quot;=== slurm-mcp wrap: job 615819 restart 0 node trace123 2026-09-02T15:42:56-04:00 ===\nnode…</text>
+<text x="14" y="213.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="230.5" fill="#c9d1d9" xml:space="preserve">    &quot;path&quot;: &quot;/trace/group/biosimmlab/wxu2/.slurm-mcp/jobs/j7/out/slurm-615819.out&quot;,</text>
+<text x="14" y="248.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="265.5" fill="#6e7681" xml:space="preserve">[1.4s]</text>
+<text x="14" y="300.5" fill="#79c0ff" xml:space="preserve">&gt; collect_results(</text>
+<text x="14" y="318.0" fill="#c9d1d9" xml:space="preserve">    &quot;ids&quot;: [</text>
+<text x="14" y="335.5" fill="#c9d1d9" xml:space="preserve">      &quot;j7&quot;</text>
+<text x="14" y="353.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="370.5" fill="#c9d1d9" xml:space="preserve">    &quot;local_dir&quot;: &quot;C:\\Users\\xuwen\\slurm-mcp-results&quot;</text>
+<text x="14" y="388.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="405.5" fill="#7ee787" xml:space="preserve">  &quot;summary&quot;: &quot;collected 2 file(s) from 1 job(s): j7 COMPLETED&quot;,</text>
+<text x="14" y="423.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="440.5" fill="#7ee787" xml:space="preserve">      &quot;handle&quot;: &quot;j7&quot;,</text>
+<text x="14" y="458.0" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="475.5" fill="#c9d1d9" xml:space="preserve">      &quot;files&quot;: 2,</text>
+<text x="14" y="493.0" fill="#c9d1d9" xml:space="preserve">      &quot;bytes&quot;: 446,</text>
+<text x="14" y="510.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="528.0" fill="#c9d1d9" xml:space="preserve">      &quot;local_path&quot;: &quot;C:\\Users\\xuwen\\slurm-mcp-results\\demo-pi-j7&quot;,</text>
+<text x="14" y="545.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="563.0" fill="#c9d1d9" xml:space="preserve">  &quot;local_dir&quot;: &quot;C:\\Users\\xuwen\\slurm-mcp-results&quot;</text>
+<text x="14" y="580.5" fill="#565f6b" xml:space="preserve">…</text>
+<text x="14" y="598.0" fill="#6e7681" xml:space="preserve">[4.2s]</text>
+</svg>

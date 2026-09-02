@@ -1,0 +1,9 @@
+615421|mixed11_scalar|batch|2026-09-01T20:58:03|(Resources)|251189|PENDING
+615427|wobl|batch|2026-09-01T21:54:30|(Priority)|251187|PENDING
+615428|woblflat|batch|2026-09-02T05:03:31|(Priority)|251187|PENDING
+615429|v3clean_scalar|batch|2026-09-02T07:35:41|(Priority)|251187|PENDING
+615430|v3coarse|batch|2026-09-02T07:35:41|(Priority)|251187|PENDING
+615422|pred_pat_mixed|batch|N/A|(Dependency)|251174|PENDING
+615431|pred_pat_wobl|batch|N/A|(Dependency)|251174|PENDING
+615432|pred_pat_scalar|batch|N/A|(Dependency)|251174|PENDING
+615433|pred_pat_v3c|batch|N/A|(Dependency)|251174|PENDING

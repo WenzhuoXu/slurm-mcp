@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="786" height="1835" viewBox="0 0 786 1835" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace" font-size="12">
+<rect width="786" height="1835" rx="8" fill="#12141a"/>
+<path d="M0 8a8 8 0 0 1 8-8h770a8 8 0 0 1 8 8v20H0z" fill="#1b1e26"/>
+<circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+<circle cx="34" cy="14" r="5" fill="#febc2e"/>
+<circle cx="52" cy="14" r="5" fill="#28c840"/>
+<text x="393" y="18" fill="#6e7681" font-size="11" text-anchor="middle">plan_job() — every partition you can use, ranked, nothing submitted</text>
+<text x="14" y="38.0" fill="#79c0ff" xml:space="preserve">&gt; plan_job(</text>
+<text x="14" y="55.5" fill="#c9d1d9" xml:space="preserve">    &quot;job&quot;: {</text>
+<text x="14" y="73.0" fill="#c9d1d9" xml:space="preserve">      &quot;name&quot;: &quot;demo-pi&quot;,</text>
+<text x="14" y="90.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="108.0" fill="#c9d1d9" xml:space="preserve">      &quot;resources&quot;: {</text>
+<text x="14" y="125.5" fill="#c9d1d9" xml:space="preserve">        &quot;time&quot;: &quot;00:10:00&quot;,</text>
+<text x="14" y="143.0" fill="#c9d1d9" xml:space="preserve">        &quot;cpus&quot;: 2</text>
+<text x="14" y="160.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="178.0" fill="#c9d1d9" xml:space="preserve">    &quot;placement&quot;: &quot;auto&quot;,</text>
+<text x="14" y="195.5" fill="#c9d1d9" xml:space="preserve">    &quot;max_options&quot;: 6</text>
+<text x="14" y="213.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="230.5" fill="#7ee787" xml:space="preserve">  &quot;summary&quot;: &quot;5 feasible target(s); best trace:cpuonly-debug@cpuonly-debug-qos: wait ~0.0 h (test_only)…</text>
+<text x="14" y="248.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="265.5" fill="#7ee787" xml:space="preserve">  &quot;plan_id&quot;: &quot;p9&quot;,</text>
+<text x="14" y="283.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="300.5" fill="#7ee787" xml:space="preserve">      &quot;target&quot;: &quot;trace:cpuonly-debug@cpuonly-debug-qos&quot;,</text>
+<text x="14" y="318.0" fill="#56d364" xml:space="preserve">      &quot;feasible&quot;: true,</text>
+<text x="14" y="335.5" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_h&quot;: 0.003,</text>
+<text x="14" y="353.0" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_src&quot;: &quot;test_only&quot;,</text>
+<text x="14" y="370.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="388.0" fill="#c9d1d9" xml:space="preserve">      &quot;queue_ahead&quot;: 0,</text>
+<text x="14" y="405.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="423.0" fill="#c9d1d9" xml:space="preserve">      &quot;cost_su&quot;: null,</text>
+<text x="14" y="440.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="458.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: &quot;free&quot;,</text>
+<text x="14" y="475.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="493.0" fill="#c9d1d9" xml:space="preserve">      &quot;score_h&quot;: 0.167,</text>
+<text x="14" y="510.5" fill="#c9d1d9" xml:space="preserve">      &quot;why&quot;: &quot;queue ahead 0; est wait 0.0 h (depth)&quot;</text>
+<text x="14" y="528.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="545.5" fill="#7ee787" xml:space="preserve">      &quot;target&quot;: &quot;bridges2:RM-small@low&quot;,</text>
+<text x="14" y="563.0" fill="#56d364" xml:space="preserve">      &quot;feasible&quot;: true,</text>
+<text x="14" y="580.5" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_h&quot;: 0.004,</text>
+<text x="14" y="598.0" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_src&quot;: &quot;test_only&quot;,</text>
+<text x="14" y="615.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="633.0" fill="#c9d1d9" xml:space="preserve">      &quot;queue_ahead&quot;: 0,</text>
+<text x="14" y="650.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="668.0" fill="#c9d1d9" xml:space="preserve">      &quot;cost_su&quot;: 0.33,</text>
+<text x="14" y="685.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="703.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: {</text>
+<text x="14" y="720.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="738.0" fill="#c9d1d9" xml:space="preserve">      &quot;score_h&quot;: 0.249,</text>
+<text x="14" y="755.5" fill="#c9d1d9" xml:space="preserve">      &quot;why&quot;: &quot;queue ahead 0; est wait 0.0 h (depth); 0.33 SU&quot;</text>
+<text x="14" y="773.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="790.5" fill="#7ee787" xml:space="preserve">      &quot;target&quot;: &quot;trace:cpuonly@cpuonly-debug-qos&quot;,</text>
+<text x="14" y="808.0" fill="#56d364" xml:space="preserve">      &quot;feasible&quot;: true,</text>
+<text x="14" y="825.5" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_h&quot;: 0.01,</text>
+<text x="14" y="843.0" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_src&quot;: &quot;test_only&quot;,</text>
+<text x="14" y="860.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="878.0" fill="#c9d1d9" xml:space="preserve">      &quot;queue_ahead&quot;: 7,</text>
+<text x="14" y="895.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="913.0" fill="#c9d1d9" xml:space="preserve">      &quot;cost_su&quot;: null,</text>
+<text x="14" y="930.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="948.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: &quot;free&quot;,</text>
+<text x="14" y="965.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="983.0" fill="#c9d1d9" xml:space="preserve">      &quot;score_h&quot;: 1.917,</text>
+<text x="14" y="1000.5" fill="#c9d1d9" xml:space="preserve">      &quot;why&quot;: &quot;queue ahead 7 (1 untyped); est wait 1.8 h (depth)&quot;</text>
+<text x="14" y="1018.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="1035.5" fill="#7ee787" xml:space="preserve">      &quot;target&quot;: &quot;bridges2:RM-512@low&quot;,</text>
+<text x="14" y="1053.0" fill="#56d364" xml:space="preserve">      &quot;feasible&quot;: true,</text>
+<text x="14" y="1070.5" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_h&quot;: 1.75,</text>
+<text x="14" y="1088.0" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_src&quot;: &quot;depth&quot;,</text>
+<text x="14" y="1105.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1123.0" fill="#c9d1d9" xml:space="preserve">      &quot;queue_ahead&quot;: 7,</text>
+<text x="14" y="1140.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1158.0" fill="#c9d1d9" xml:space="preserve">      &quot;cost_su&quot;: 0.33,</text>
+<text x="14" y="1175.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1193.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: {</text>
+<text x="14" y="1210.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1228.0" fill="#c9d1d9" xml:space="preserve">      &quot;score_h&quot;: 1.999,</text>
+<text x="14" y="1245.5" fill="#c9d1d9" xml:space="preserve">      &quot;why&quot;: &quot;queue ahead 7; est wait 1.8 h (depth); 0.33 SU&quot;</text>
+<text x="14" y="1263.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="1280.5" fill="#7ee787" xml:space="preserve">      &quot;target&quot;: &quot;bridges2:EM@low&quot;,</text>
+<text x="14" y="1298.0" fill="#56d364" xml:space="preserve">      &quot;feasible&quot;: true,</text>
+<text x="14" y="1315.5" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_h&quot;: 2.0,</text>
+<text x="14" y="1333.0" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_src&quot;: &quot;depth&quot;,</text>
+<text x="14" y="1350.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1368.0" fill="#c9d1d9" xml:space="preserve">      &quot;queue_ahead&quot;: 8,</text>
+<text x="14" y="1385.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1403.0" fill="#c9d1d9" xml:space="preserve">      &quot;cost_su&quot;: 0.33,</text>
+<text x="14" y="1420.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1438.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: {</text>
+<text x="14" y="1455.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1473.0" fill="#c9d1d9" xml:space="preserve">      &quot;score_h&quot;: 2.249,</text>
+<text x="14" y="1490.5" fill="#c9d1d9" xml:space="preserve">      &quot;why&quot;: &quot;queue ahead 8; est wait 2.0 h (depth); 0.33 SU&quot;</text>
+<text x="14" y="1508.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="1525.5" fill="#7ee787" xml:space="preserve">      &quot;target&quot;: &quot;bridges2:applications@low&quot;,</text>
+<text x="14" y="1543.0" fill="#ff7b72" xml:space="preserve">      &quot;feasible&quot;: false,</text>
+<text x="14" y="1560.5" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_h&quot;: 0.0,</text>
+<text x="14" y="1578.0" fill="#c9d1d9" xml:space="preserve">      &quot;est_wait_src&quot;: &quot;depth&quot;,</text>
+<text x="14" y="1595.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1613.0" fill="#c9d1d9" xml:space="preserve">      &quot;queue_ahead&quot;: 0,</text>
+<text x="14" y="1630.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1648.0" fill="#c9d1d9" xml:space="preserve">      &quot;cost_su&quot;: 0.33,</text>
+<text x="14" y="1665.5" fill="#565f6b" xml:space="preserve">      …</text>
+<text x="14" y="1683.0" fill="#c9d1d9" xml:space="preserve">      &quot;charge&quot;: {</text>
+<text x="14" y="1700.5" fill="#565f6b" xml:space="preserve">        …</text>
+<text x="14" y="1718.0" fill="#c9d1d9" xml:space="preserve">      &quot;score_h&quot;: 0.249,</text>
+<text x="14" y="1735.5" fill="#c9d1d9" xml:space="preserve">      &quot;why&quot;: &quot;Invalid qos specification&quot;</text>
+<text x="14" y="1753.0" fill="#565f6b" xml:space="preserve">    …</text>
+<text x="14" y="1770.5" fill="#7ee787" xml:space="preserve">  &quot;recommended&quot;: &quot;trace:cpuonly-debug@cpuonly-debug-qos&quot;,</text>
+<text x="14" y="1788.0" fill="#565f6b" xml:space="preserve">  …</text>
+<text x="14" y="1805.5" fill="#6e7681" xml:space="preserve">[36.2s]</text>
+</svg>

@@ -1,0 +1,2 @@
+sbatch: error: QOSMaxWallDurationPerJobLimit
+allocation failure: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)

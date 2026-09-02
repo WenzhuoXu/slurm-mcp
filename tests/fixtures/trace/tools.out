@@ -1,0 +1,17 @@
+sbatch=/usr/bin/sbatch
+squeue=/usr/bin/squeue
+sacct=/usr/bin/sacct
+sinfo=/usr/bin/sinfo
+scontrol=/usr/bin/scontrol
+scancel=/usr/bin/scancel
+sprio=/usr/bin/sprio
+sshare=/usr/bin/sshare
+sacctmgr=/usr/bin/sacctmgr
+seff=/usr/bin/seff
+sstat=/usr/bin/sstat
+tar=/usr/bin/tar
+jq=/usr/bin/jq
+rsync=/usr/bin/rsync
+python3=/trace/packages/spack/opt/spack/linux-rhel8-zen2/aocc-3.2.0/anaconda3-2021.05-kzx6fsyunqicmq3unwurv7yf4snb72ac/bin/python3
+flock=/usr/bin/flock
+timeout=/usr/bin/timeout
